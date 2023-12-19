@@ -129,11 +129,11 @@ In Case you want to deploy the web service using and specific and dedicated dock
 
       docker run -it --rm -p 9696:9696 "image_name"
 
-With the Flask application running inside Docker you can make HTTP requests to port 9696 running the file ```WS_predict.py``` where the house whose characteristics were defined above are passed in a json form and used for making a price prediction. Namely, you should run:
+     With the Flask application running inside Docker you can make HTTP requests to port 9696 running the file ```WS_predict.py``` where the house whose characteristics were defined above are passed in a json form and used for making a price        prediction. Namely, you should run:
 
-```python
-pipenv WS_predict.py
-```
+      ```python
+      pipenv WS_predict.py
+      ```
 
 
 ### Final considerations
